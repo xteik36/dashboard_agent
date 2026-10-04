@@ -1,0 +1,177 @@
+{
+  "selected_sprint": "Sprint18",
+  "sprint_summary": {
+    "total_tasks": 28,
+    "completed_count": 23,
+    "completed_rate_pct": 82.14,
+    "in_progress_count": 1,
+    "in_progress_rate_pct": 3.57,
+    "pending_count": 0,
+    "pending_rate_pct": 0.0,
+    "overdue_count": 4,
+    "overdue_rate_pct": 14.29
+  },
+  "sprint_health": {
+    "label": "Sprint Health",
+    "value": 82.14,
+    "status": "On Track",
+    "delta_vs_previous_sprint": null
+  },
+  "critical_risk": {
+    "label": "Critical Risk",
+    "value": 2,
+    "status": "At Risk",
+    "delta_vs_previous_sprint": null
+  },
+  "audit_pending": null,
+  "delivery_trend": [
+    {
+      "sprint": "Sprint13",
+      "created": 5,
+      "completed": 5
+    },
+    {
+      "sprint": "Sprint14",
+      "created": 4,
+      "completed": 4
+    },
+    {
+      "sprint": "Sprint15",
+      "created": 27,
+      "completed": 27
+    },
+    {
+      "sprint": "Sprint16",
+      "created": 15,
+      "completed": 15
+    },
+    {
+      "sprint": "Sprint17",
+      "created": 18,
+      "completed": 18
+    },
+    {
+      "sprint": "Sprint18",
+      "created": 28,
+      "completed": 23
+    }
+  ],
+  "risk_distribution": [
+    {
+      "impact": "High",
+      "probability": "High",
+      "count": 1
+    },
+    {
+      "impact": "Low",
+      "probability": "High",
+      "count": 1
+    }
+  ],
+  "attention_tasks": [
+    {
+      "id": "TSK-0244",
+      "st": 244,
+      "function_id": "4",
+      "title": "BA: Thiết kế tài liệu đặc tả cho danh mục tài liệu audit chuẩn",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0245",
+      "st": 245,
+      "function_id": "5",
+      "title": "BA: Thiết kế tài liệu đặc tả cho Quản lý tiến độ dự án nhiều Sprint",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0255",
+      "st": 255,
+      "function_id": "2",
+      "title": "BA: Viết tài liệu đặc tả các module của Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-25",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0257",
+      "st": 257,
+      "function_id": "4",
+      "title": "BA: thiết kế tab chatbot trên Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 10,
+      "due_date": "2026-09-29",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0259",
+      "st": 259,
+      "function_id": "1",
+      "title": "BA: Viết tài liệu đặc tả cho hiển thị dữ liệu đa Sprint",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-10-02",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "In Progress",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    }
+  ],
+  "total_tasks": {
+    "count": 28,
+    "rate_pct": 100.0
+  }
+}

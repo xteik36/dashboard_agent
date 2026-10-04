@@ -1,0 +1,8 @@
+{
+  "name": "PMA Agent Workspace Hub",
+  "description": "Enterprise project management agent workspace for portfolio delivery, risk predictions, agent functions, meetings, and AI audit compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,5311 @@
+{
+  "selected_sprint": "Sprint18",
+  "summary": {
+    "total_tasks": 28,
+    "completed_count": 23,
+    "completed_rate_pct": 82.14,
+    "in_progress_count": 1,
+    "in_progress_rate_pct": 3.57,
+    "pending_count": 0,
+    "pending_rate_pct": 0.0,
+    "overdue_count": 4,
+    "overdue_rate_pct": 14.29
+  },
+  "tabs": {
+    "today_count": 4,
+    "overdue_count": 4,
+    "completed_count": 23
+  },
+  "sprint_chart": [
+    {
+      "sprint": "Sprint13",
+      "completed": 5,
+      "in_progress": 0,
+      "to_do": 0,
+      "overdue": 0,
+      "is_current": false
+    },
+    {
+      "sprint": "Sprint14",
+      "completed": 4,
+      "in_progress": 0,
+      "to_do": 0,
+      "overdue": 0,
+      "is_current": false
+    },
+    {
+      "sprint": "Sprint15",
+      "completed": 27,
+      "in_progress": 0,
+      "to_do": 0,
+      "overdue": 0,
+      "is_current": false
+    },
+    {
+      "sprint": "Sprint16",
+      "completed": 15,
+      "in_progress": 0,
+      "to_do": 0,
+      "overdue": 0,
+      "is_current": false
+    },
+    {
+      "sprint": "Sprint17",
+      "completed": 18,
+      "in_progress": 0,
+      "to_do": 0,
+      "overdue": 0,
+      "is_current": false
+    },
+    {
+      "sprint": "Sprint18",
+      "completed": 23,
+      "in_progress": 1,
+      "to_do": 0,
+      "overdue": 4,
+      "is_current": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TSK-0001",
+      "st": 1,
+      "function_id": "1",
+      "title": "Cho phép người dùng chọn 1 file trên Sharepoint mà họ muốn",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint1",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0002",
+      "st": 2,
+      "function_id": "1.1",
+      "title": "Trong Agent khi người dùng prompt tạo task ở file Task Management trên sharepoint thì sẽ cho người dùng chọn file chứ không phải fixed 1 file",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint1",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0003",
+      "st": 3,
+      "function_id": "1",
+      "title": "Update remind multiple Plans in cross Channels",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0004",
+      "st": 4,
+      "function_id": "1.1",
+      "title": "Hiện tại Agent đang chỉ chọn được nhiều Plan trong 1 group channel --> mong muốn update chọn được nhiều group channel và nhiều plans nằm trong các group đã chọn",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0005",
+      "st": 5,
+      "function_id": "1.2",
+      "title": "Khi lấy task trong planner thì phải trỏ đúng group channel chứa planner đó nếu không sẽ bị lỗi",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0006",
+      "st": 6,
+      "function_id": "1.3",
+      "title": "Khi gửi remind overdue task thì sẽ cho 2 option\n1. Gửi cho từng user (danh sách các task của ai thì gửi cho người đó)\n2. Gửi danh sách task của mọi người vào 1 group chung (trong config) và tag tên assignee tương ứng với mỗi task",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0007",
+      "st": 7,
+      "function_id": "2",
+      "title": "Update flow create task & update task Agent số 1 (AMS)",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "KhoiLND1",
+        "initials": "KH",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0008",
+      "st": 8,
+      "function_id": "3",
+      "title": "Đổi source báo cáo (prompt số 6 đến số 8) - Ping chị Yến",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0009",
+      "st": 9,
+      "function_id": "4",
+      "title": "Update task ( các thông tin giống trong tạo task) cần confirm pop-up trước khi submit",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0010",
+      "st": 10,
+      "function_id": "5",
+      "title": "Pool Prompts (optional)",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint2",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0011",
+      "st": 11,
+      "function_id": "1",
+      "title": "Nghiên cứu AI Models",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0012",
+      "st": 12,
+      "function_id": "1.1",
+      "title": "AI Builder là gì và nó được sử dụng để làm gì?",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-24",
+      "owner": {
+        "name": "BachTT2, HungTHT1",
+        "initials": "BH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0013",
+      "st": 13,
+      "function_id": "1.2",
+      "title": "Tìm hiểu về Các loại mô hình AI Builder có sẵn (Prebuild) và chức năng của mỗi loại",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-24",
+      "owner": {
+        "name": "BachTT2, HungTHT1",
+        "initials": "BH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0014",
+      "st": 14,
+      "function_id": "1.3",
+      "title": "Cách tạo và huấn luyện mô hình AI",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-24",
+      "owner": {
+        "name": "BachTT2, HungTHT1",
+        "initials": "BH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0015",
+      "st": 15,
+      "function_id": "1.4",
+      "title": "Cách tích hợp AI vào Power Automate",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-24",
+      "owner": {
+        "name": "BachTT2, HungTHT1",
+        "initials": "BH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0016",
+      "st": 16,
+      "function_id": "2",
+      "title": "Nghiên cứu áp dụng AI Model vào Agent",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0017",
+      "st": 17,
+      "function_id": "2.1",
+      "title": "Tạo 1 AI Agent và tích hợp AI Models vào",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-31",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint3",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0018",
+      "st": 18,
+      "function_id": "1",
+      "title": "UI/UX",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0019",
+      "st": 19,
+      "function_id": "1.1",
+      "title": "Lỗi font mục Power BI Report",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-04",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0020",
+      "st": 20,
+      "function_id": "1.2",
+      "title": "Giao diện ô assignee email chưa linh hoạt",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-04",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0021",
+      "st": 21,
+      "function_id": "1.3",
+      "title": "Chữ dính liền nhau",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-05",
+      "owner": {
+        "name": "KhoiLND1",
+        "initials": "KH",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0022",
+      "st": 22,
+      "function_id": "2",
+      "title": "Các lỗi liên quan đến logic",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0023",
+      "st": 23,
+      "function_id": "2.1",
+      "title": "Tạo 2+ task liên tục bị lỗi",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-04",
+      "owner": {
+        "name": "KhoiLND1",
+        "initials": "KH",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0024",
+      "st": 24,
+      "function_id": "2.2",
+      "title": "Agent yêu cầu điền đủ thông tin nhưng form không phản hồi đúng",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-06",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0025",
+      "st": 25,
+      "function_id": "2.3",
+      "title": "Remind overdue task báo lỗi",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-13",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0026",
+      "st": 26,
+      "function_id": "2.4",
+      "title": "Lỗi duplicate topic",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-11-14",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0027",
+      "st": 27,
+      "function_id": "2.5",
+      "title": "List task theo account hay deadline cụ thể (ToanNC19,hay 11/12/2025)",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-10-17",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint4",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0028",
+      "st": 28,
+      "function_id": "1",
+      "title": "Tính năng Suggestion Today",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0029",
+      "st": 29,
+      "function_id": "1.1",
+      "title": "Tạo suggestion today dựa trên interest của PM:\n+ Dùng AI để generate.\n+ Có 3 button (đã ghi rõ trong backlog và mục UI).",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-12-10",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0030",
+      "st": 30,
+      "function_id": "2",
+      "title": "Agent đọc tin nhắn & mail của PM",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0031",
+      "st": 31,
+      "function_id": "2.1",
+      "title": "Đọc và phân loại tin nhắn/mail",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-13",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0032",
+      "st": 32,
+      "function_id": "2.2",
+      "title": "Tổng hợp để báo lại cho PM và nhắc phản hồi theo giờ setup sẵn.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-13",
+      "owner": {
+        "name": "BachTT2",
+        "initials": "BA",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0033",
+      "st": 33,
+      "function_id": "3",
+      "title": "Tạo Meeting Request (MR) bằng Prompt",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0034",
+      "st": 34,
+      "function_id": "3.1",
+      "title": "- Ví dụ: “Tạo MR với team [Tên team/product]”:\n+ Agent tự nhận các account liên quan để tạo MR.\n+ Tên cuộc họp được gen bằng AI.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-13",
+      "owner": {
+        "name": "KhoiLND1",
+        "initials": "KH",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0035",
+      "st": 35,
+      "function_id": "3.2",
+      "title": "- Trước khi tạo:\n+ Hiện bảng xem người liên quan, tên MR, giờ họp.\n+ Nếu prompt không có giờ → Agent hỏi lại để xác nhận thời gian.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-13",
+      "owner": {
+        "name": "KhoiLND1",
+        "initials": "KH",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0036",
+      "st": 36,
+      "function_id": "4",
+      "title": "Button hóa",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0037",
+      "st": 37,
+      "function_id": "4.1",
+      "title": "- Tạo topic Start, Hello, Hey BnP BnP PM Asisstant\n--> Xuất hiện các option bằng dạng button theo phân khu\n+ Phân khu 1: Config\n+ Phân khu 2: Daily Operation\n+ Phân khu 3: Reports\n+ Phân khu 4: AI Generation",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-12-15",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0038",
+      "st": 38,
+      "function_id": "4.2",
+      "title": "- Khi chọn Daiy Operation sẽ hiển thị ra các topic liên quan đến phân khu đã chọn. Ví dụ:\n1. Option create tasks\n2. Update task\n3. Task (by Product / Account / Deadline)\n4. Remind overdue task\n5. Create new visitation request\n\n- Nghiên cứu xem có khả năng khi chọn 1 nút nó sẽ chưa gửi luôn message đó để chạy mà hiển thị trên phần type để mình có thể chỉnh sửa trước rồi mới gửi.\n--> Tạm thời sẽ cho auto gửi trước",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-12-15",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0039",
+      "st": 39,
+      "function_id": "4.3",
+      "title": "- Có 1 nút để khi bấm vào sẽ đổi các câu prompt topic",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2025-12-15",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint5",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0040",
+      "st": 40,
+      "function_id": "1",
+      "title": "Update Sprint Plan & Timeline",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0041",
+      "st": 41,
+      "function_id": "1.1",
+      "title": "Cập nhật file sprint/timeline dựa trên bản cũ của Long. Đảm bảo khớp với chu kỳ sprint 19/01 - 02/02.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-21",
+      "owner": {
+        "name": "DungDTT42",
+        "initials": "DU",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0042",
+      "st": 42,
+      "function_id": "2",
+      "title": "Setup Tracking Process",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0043",
+      "st": 43,
+      "function_id": "2.1",
+      "title": "Join các group trao đổi, thiết lập quy trình follow status của 3 team",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-20",
+      "owner": {
+        "name": "DungDTT42",
+        "initials": "DU",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0044",
+      "st": 44,
+      "function_id": "3",
+      "title": "Quản lý Task Pending",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0045",
+      "st": 45,
+      "function_id": "3.1",
+      "title": "Tổng hợp và rà soát file \"Task Pending\" (các task tồn đọng tuần trước) để đưa vào Daily report.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-22",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0046",
+      "st": 46,
+      "function_id": "3.2",
+      "title": "Phổ biến quy trình cho New Member\nTraining quy trình Planner: Nhận task -> Update Status (Not started/In Progress/Completed) -> Báo cáo.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-19",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0047",
+      "st": 47,
+      "function_id": "4",
+      "title": "UI/UX Standard & Library",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0048",
+      "st": 48,
+      "function_id": "4.1",
+      "title": "Build UI Template & UI Library dùng chung.\r\nMục tiêu: Tạo bộ chuẩn (Button, Form, List, Color...) để Dev reuse code.",
+      "project": "Planner",
+      "priority": "Critical",
+      "progress": 100,
+      "due_date": "2026-01-25",
+      "owner": {
+        "name": "ThangLV",
+        "initials": "TH",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0049",
+      "st": 49,
+      "function_id": "4.2",
+      "title": "Thống nhất Layout & Wireframe.\r\nThống nhất nút Confirm/Cancel, Grouping list. Cần bản POC duyệt với PM.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-25",
+      "owner": {
+        "name": "MinhAnh",
+        "initials": "MI",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0050",
+      "st": 50,
+      "function_id": "4.3",
+      "title": "Quy chuẩn đặt tên Adaptive Card.\r\nViết quy tắc đặt tên vào file Commons và phổ biến cho team Dev.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-24",
+      "owner": {
+        "name": "ThangLV",
+        "initials": "TH",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0051",
+      "st": 51,
+      "function_id": "5",
+      "title": "Technical Fixes & Database",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0052",
+      "st": 52,
+      "function_id": "5.1",
+      "title": "Reconnect Database (Generate Feature).\r\nKết nối lại DB mới do data cũ lỗi/cũ. Task ưu tiên gấp.",
+      "project": "PMA Agent",
+      "priority": "Critical",
+      "progress": 100,
+      "due_date": "2026-01-23",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0053",
+      "st": 53,
+      "function_id": "5.2",
+      "title": "Xử lý Backlog & Production Tasks.\r\nGiải quyết 11 task tồn đọng và support Test đẩy 2 task lên Prod.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-25",
+      "owner": {
+        "name": "DevTeam",
+        "initials": "DE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0054",
+      "st": 54,
+      "function_id": "5.3",
+      "title": "Sắp xếp Menu & View Prompts.\r\nĐẩy menu lên đầu, thêm menu cho màn hình view.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-01-24",
+      "owner": {
+        "name": "DevTeam",
+        "initials": "DE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0055",
+      "st": 55,
+      "function_id": "6",
+      "title": "Quality Control & Reporting",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0056",
+      "st": 56,
+      "function_id": "6.1",
+      "title": "Build Master Test Report (Excel).\r\nGom tất cả về 1 file, auto-update chart overview. Deadline gấp.",
+      "project": "PMA Agent",
+      "priority": "Critical",
+      "progress": 100,
+      "due_date": "2026-01-22",
+      "owner": {
+        "name": "HaiBN",
+        "initials": "HA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0057",
+      "st": 57,
+      "function_id": "6.2",
+      "title": "Test Execution & Log Bug.\r\nTest task dev trả, log bug. Nếu fail trả về In-progress ngay.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-02",
+      "owner": {
+        "name": "TestTeam",
+        "initials": "TE",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0058",
+      "st": 58,
+      "function_id": "7",
+      "title": "Business Analysis (BA)",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0059",
+      "st": 59,
+      "function_id": "7.1",
+      "title": "Chuẩn hóa Backlog & Evidence.\r\nPhân loại Bug/Feature. Tách ảnh bằng chứng sang sheet riêng.",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-01-25",
+      "owner": {
+        "name": "BATeam",
+        "initials": "BA",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint6",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0060",
+      "st": 60,
+      "function_id": "1",
+      "title": "Refactor UI & Codebase",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0061",
+      "st": 61,
+      "function_id": "1.1",
+      "title": "Apply UI Library cho toàn bộ dự án.\nThay thế các component cũ bằng Library chuẩn đã build ở Sprint 5.",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-10",
+      "owner": {
+        "name": "DevTeam",
+        "initials": "DE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0062",
+      "st": 62,
+      "function_id": "1.2",
+      "title": "Code Cleanup & Optimization.\r\nRà soát code rác sau khi reconnect DB và merge code mới.",
+      "project": "PMA Agent",
+      "priority": "Low",
+      "progress": 100,
+      "due_date": "2026-02-10",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0063",
+      "st": 63,
+      "function_id": "2.1",
+      "title": "Nâng cấp Auto-Report System.\r\nCải tiến file Excel báo cáo hoặc chuyển sang Dashboard xịn hơn.",
+      "project": "PMA Agent",
+      "priority": "Low",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "HaiBN",
+        "initials": "HA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0064",
+      "st": 64,
+      "function_id": "3",
+      "title": "Nâng cấp/cải thiện các tính năng",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0065",
+      "st": 65,
+      "function_id": "3.1",
+      "title": "Áp dụng AI vào để nhận biết yêu cầu ví dụ update my task thì tự bắt được account hiện tại,\nHoặc update task by product, deadline, account",
+      "project": "PMA Agent",
+      "priority": "Low",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "HungLQ35,\nSinhVL1",
+        "initials": "HS",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0066",
+      "st": 66,
+      "function_id": "3.2",
+      "title": "Improve performance Các tác vụ load config phải được thực hiện song song (parallel) ngay khi trigger các thông tin liên quan",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0067",
+      "st": 67,
+      "function_id": "3.3",
+      "title": "Trợ lý Lọc email, tin nhắn chat (mention) để tổng hợp task của PM bao gồm Non-Work, Project",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "ThangLV30,\nAnhTM46",
+        "initials": "TA",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0068",
+      "st": 68,
+      "function_id": "3.4",
+      "title": "default planner",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0069",
+      "st": 69,
+      "function_id": "3.5",
+      "title": "add product đẩy lên màn hình config",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "HungThT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0070",
+      "st": 70,
+      "function_id": "3.6",
+      "title": "Tạo Meeting Room băng prompt",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0071",
+      "st": 71,
+      "function_id": "3.7",
+      "title": "Today task sẽ có 2 lựa chọn: Personal tasks và Projects tasks",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "MinhNQ125",
+        "initials": "MI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0072",
+      "st": 72,
+      "function_id": "3.8",
+      "title": "Tạo task trực tiếp bằng prompt",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "HoangTX8,\nNghiaNT115",
+        "initials": "HN",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0073",
+      "st": 73,
+      "function_id": "4",
+      "title": "Các tính năng mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0074",
+      "st": 74,
+      "function_id": "4.1",
+      "title": "Gửi lời chào tự động vào 8:30 am thứ 2 và thứ 5 hàng tuần",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "MinhNQ125,\nNghiaNT115",
+        "initials": "MN",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0075",
+      "st": 75,
+      "function_id": "4.2",
+      "title": "AI thông báo cho người dùng mỗi khi có bản update mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "HungLQ35,\nSinhVL1",
+        "initials": "HS",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0076",
+      "st": 76,
+      "function_id": "4.3",
+      "title": "Tính năng thông báo cho users",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "MinhNQ125,\nAnhTM46",
+        "initials": "MA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0077",
+      "st": 77,
+      "function_id": "4.4",
+      "title": "Tính năng view, delete bookmark",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "HungTHT1",
+        "initials": "HU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0078",
+      "st": 78,
+      "function_id": "5",
+      "title": "Thu thập thông tin người dùng",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0079",
+      "st": 79,
+      "function_id": "5.1",
+      "title": "Log lại các data của người dùng, sau đó personalize nó",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "TrungHDA1,\nSinhVL1",
+        "initials": "TS",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0080",
+      "st": 80,
+      "function_id": "5.2",
+      "title": "Đo usage theo user + report chart",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "HoangTX8,\nAnhTM6",
+        "initials": "HA",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0081",
+      "st": 81,
+      "function_id": "6",
+      "title": "FIx các bug còn tồn động",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0082",
+      "st": 82,
+      "function_id": "6.1",
+      "title": "Bug tính năng",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "TeamDEV",
+        "initials": "TE",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0083",
+      "st": 83,
+      "function_id": "6.2",
+      "title": "Bug UI/UX",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-17",
+      "owner": {
+        "name": "TeamDEV",
+        "initials": "TE",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0084",
+      "st": 84,
+      "function_id": "7",
+      "title": "Business Analysis (BA)",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0085",
+      "st": 85,
+      "function_id": "7.1",
+      "title": "Tạo bản draft marketing",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "TeamBA",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0086",
+      "st": 86,
+      "function_id": "7.2",
+      "title": "Cập nhật releast note cho phiên bản mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "NghiaNT115",
+        "initials": "NG",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0087",
+      "st": 87,
+      "function_id": "7.3",
+      "title": "Viết contents cho các chức năng cần: thông báo mỗi thứ 2 và thứ 5, hướng dẫn cách cài agent, nhắc nhở người dùng các task chưa hoàn thành,...",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-02-07",
+      "owner": {
+        "name": "TeamBA",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint7",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0088",
+      "st": 88,
+      "function_id": "1",
+      "title": "UI/UX",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0089",
+      "st": 89,
+      "function_id": "1.1",
+      "title": "Căn chỉnh chiều dài chiều rộng của cột trong bảng",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-03-12",
+      "owner": {
+        "name": "ThangLV30",
+        "initials": "TH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0090",
+      "st": 90,
+      "function_id": "1.2",
+      "title": "Đồng bộ font /size giữa các thẻ",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-03-12",
+      "owner": {
+        "name": "ThangLV30",
+        "initials": "TH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0091",
+      "st": 91,
+      "function_id": "2",
+      "title": "Non Planner features",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0092",
+      "st": 92,
+      "function_id": "2.1",
+      "title": "Xây dựng một bảng dữ liệu riêng (database nội bộ)",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-01",
+      "owner": {
+        "name": "TrungHDA1, SinhVL1",
+        "initials": "TS",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0093",
+      "st": 93,
+      "function_id": "2.2",
+      "title": "Chia làm 2 nhóm tính năng : Non-Planner & Planner",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-01",
+      "owner": {
+        "name": "TrungHDA1, SinhVL1",
+        "initials": "TS",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0094",
+      "st": 94,
+      "function_id": "3",
+      "title": "Các tính năng mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0095",
+      "st": 95,
+      "function_id": "3.1",
+      "title": "summarize MoM dựa vào script, sau khi add được Bot vào trong MR",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-09",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0096",
+      "st": 96,
+      "function_id": "3.2",
+      "title": "Agent auto trigger việc tạo task từ MOM, tự log task lên planner, tự tạo meeting (cho phép comfirm trước)",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-12",
+      "owner": {
+        "name": "AnhTM46,\nMinhNQ125",
+        "initials": "AM",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0097",
+      "st": 97,
+      "function_id": "4.2",
+      "title": "default planner",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-27",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0098",
+      "st": 98,
+      "function_id": "4.3",
+      "title": "Cải thiện gửi thông báo bản cập nhật mới từ release note",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-27",
+      "owner": {
+        "name": "HungLQ35",
+        "initials": "HU",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0099",
+      "st": 99,
+      "function_id": "4.4",
+      "title": "Liên kết Bookmark với Report",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-03-12",
+      "owner": {
+        "name": "MinhNQ125",
+        "initials": "MI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0100",
+      "st": 100,
+      "function_id": "4.5",
+      "title": "Add button bookmark và create new meeting request vào menu",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-04",
+      "owner": {
+        "name": "TrungDDB1,\nNghiaNT115",
+        "initials": "TN",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0101",
+      "st": 101,
+      "function_id": "5",
+      "title": "Fix các bugs còn tồn đọng",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0102",
+      "st": 102,
+      "function_id": "5.1",
+      "title": "Bug tính năng",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-02-09",
+      "owner": {
+        "name": "Team DEV",
+        "initials": "TD",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint8",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0103",
+      "st": 103,
+      "function_id": "1",
+      "title": "Buổi 1: 14/4/2026 (60 phút)",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0104",
+      "st": 104,
+      "function_id": "1",
+      "title": "Demo",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0105",
+      "st": 105,
+      "function_id": "2",
+      "title": "Tạo Task, Nhắc Task",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0106",
+      "st": 106,
+      "function_id": "3",
+      "title": "Tạo MR",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0107",
+      "st": 107,
+      "function_id": "4",
+      "title": "Yêu cầu ghé thăm.",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0108",
+      "st": 108,
+      "function_id": "5",
+      "title": "Tìm Account trên tên không cần nhập đuôi @fpt.com.",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0109",
+      "st": 109,
+      "function_id": "6",
+      "title": "Test 2 option: Personal Task, Project Task",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0110",
+      "st": 110,
+      "function_id": "7",
+      "title": "Tạo công việc (Tạo công việc bằng prompt)",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0111",
+      "st": 111,
+      "function_id": "8",
+      "title": "Bookmark",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0112",
+      "st": 112,
+      "function_id": "9",
+      "title": "List tasks by Account/Product/Deadline.",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0113",
+      "st": 113,
+      "function_id": "10",
+      "title": "Configuration (Planner).",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0114",
+      "st": 114,
+      "function_id": "11",
+      "title": "Promt MENU AI GENERATION -> chọn highlight Agent load liên tục ko trả kết quả",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0115",
+      "st": 115,
+      "function_id": "12",
+      "title": "Xem các Demo của PMA bản 2.5+",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0116",
+      "st": 116,
+      "function_id": "13",
+      "title": "Nghiên cứu về Config: Planner, mapping Account–Product, link WBS, link Power BI, schedule, DB…).",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0117",
+      "st": 117,
+      "function_id": "14",
+      "title": "MR với Chị Thơ để hỏi về template BA, Dev, Test (khoảng 20 phút)",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0118",
+      "st": 118,
+      "function_id": "15",
+      "title": "QA các lỗi với Long, Long đã hỗ trợ hoàn thành trong vòng 24h",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "Unassigned",
+        "initials": "UN",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0119",
+      "st": 119,
+      "function_id": "1",
+      "title": "Buổi 2: 17/4/2026 (30 phút)",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "HungNM96",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0120",
+      "st": 120,
+      "function_id": "1",
+      "title": "Làm Report các kiến thức đã được KT",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0121",
+      "st": 121,
+      "function_id": "2",
+      "title": "Gửi tài liệu cho Inter Dev và giải đáp thắc mắc nếu có",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0122",
+      "st": 122,
+      "function_id": "3",
+      "title": "Nghiên cứu SCDM",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0123",
+      "st": 123,
+      "function_id": "4",
+      "title": "Nghiên cứu tiếp PMA",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0124",
+      "st": 124,
+      "function_id": "5",
+      "title": "Báo Ngọc tìm thêm 2 bạn BA, Test",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "NgocBNP",
+        "initials": "NG",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0125",
+      "st": 125,
+      "function_id": "1",
+      "title": "Buổi 3: Training về SCDM - 24/6/2026 (4h-4h30)",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "HungNM96",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0126",
+      "st": 126,
+      "function_id": "2",
+      "title": "Nói về các luồn syns dữ liệu",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "HungNM96",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0127",
+      "st": 127,
+      "function_id": "3",
+      "title": "Tìm hiểu các issue về connection, account, rule.",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0128",
+      "st": 128,
+      "function_id": "1",
+      "title": "QA và nghe KT thứ 6, buổi chiều",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0129",
+      "st": 129,
+      "function_id": "2",
+      "title": "Test, Check, Update STT (Should Have, Must Have, Nice to Have) ở Sheet Backlog trong file PMA Requirment",
+      "project": "Performance",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Performance"
+    },
+    {
+      "id": "TSK-0130",
+      "st": 130,
+      "function_id": "1",
+      "title": "16h ngày 28/4, MR v/v tìm thêm 1 chức năng mới cho PMA, tính khả thi, thực hiện",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "All Team",
+        "initials": "AT",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0131",
+      "st": 131,
+      "function_id": "2",
+      "title": "Request KT SCDM về WBS + Request của User và tiến độ hỗ trợ của Team",
+      "project": "Others",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-19",
+      "owner": {
+        "name": "HungNM96",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint10",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0132",
+      "st": 132,
+      "function_id": "1",
+      "title": "Check các STT: Not started, Pending, In Development trong file BnP PM Assistant Requirement",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0133",
+      "st": 133,
+      "function_id": "2",
+      "title": "Check update file phân quyền User mới dùng",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0134",
+      "st": 134,
+      "function_id": "3",
+      "title": "Check file Check list trainning Dev mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0135",
+      "st": 135,
+      "function_id": "4",
+      "title": "Soạn file QA các câu hỏi phát sinh trong quá trình training, làm việc từ User -> Dev, Team",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0136",
+      "st": 136,
+      "function_id": "1",
+      "title": "Thảo luận tìm chức năng khả thi nhất để triển khai",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0137",
+      "st": 137,
+      "function_id": "2",
+      "title": "Plan chi tiết để bắt đầu triển khai chức năng mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0138",
+      "st": 138,
+      "function_id": "1",
+      "title": "Trainnig tổng quan PMA: Định nghĩa, Chức năng, phân bổ, vai trò",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0139",
+      "st": 139,
+      "function_id": "2",
+      "title": "Phân chia 2 bạn: 1 BA, 1 Tester cho team PMA",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0140",
+      "st": 140,
+      "function_id": "3",
+      "title": "Tester - Plan test lại các chức năng, update tài liệu, soạn QA",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0141",
+      "st": 141,
+      "function_id": "4",
+      "title": "BA - Plan check và update các tài liệu đã có sẵn, soạn QA",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0142",
+      "st": 142,
+      "function_id": "1",
+      "title": "Chấm điểm & Quản lý rủi ro (Risk Assessment)",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0143",
+      "st": 143,
+      "function_id": "2",
+      "title": "Check list triển khai chức năng mới",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0144",
+      "st": 144,
+      "function_id": "3",
+      "title": "Plan chi tiết: Dev, Test, BA",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0145",
+      "st": 145,
+      "function_id": "1",
+      "title": "Add group Team, quy định",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0146",
+      "st": 146,
+      "function_id": "2",
+      "title": "Gửi tài liệu về PMA",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0147",
+      "st": 147,
+      "function_id": "3",
+      "title": "Training tổng quan PMA, môi trường Dev, Acc sử dụng, phân quyền",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint11",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0148",
+      "st": 148,
+      "function_id": "1",
+      "title": "Thứ 2: 10h - 11h\n\nHọp giải thích 1 số thắc mắc cho 2 bạn DuyNQ51, HuyPQ104 (Check với LongNT90, Request LongNT90 join cùng )",
+      "project": "Improvement",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-11-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "Improvement"
+    },
+    {
+      "id": "TSK-0149",
+      "st": 149,
+      "function_id": "2",
+      "title": "Chia task cho 2 bạn: DuyNQ51, HuyPQ104",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-11-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0150",
+      "st": 150,
+      "function_id": "3",
+      "title": "Chuẩn bị Go-live sáng thứ 6, 10h",
+      "project": "Planner",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-19",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0151",
+      "st": 151,
+      "function_id": "1",
+      "title": "Join buổi trainning chiều 14h, ngày 10/5/2026 các kiến thức cơ bản về BA, Dev, Test",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-11-05",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0152",
+      "st": 152,
+      "function_id": "2",
+      "title": "Soạn file tài liệu hướng dẫn cài VDI",
+      "project": "PMA Agent",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-11-05",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0153",
+      "st": 153,
+      "function_id": "3",
+      "title": "Soạn file Q&A tổng hợp các thắc mắc của cả Team\n\n- Share link chung và chia nhau update vào file\n- Các câu trả lời kèm hình ảnh và mô tả chi tiết",
+      "project": "PMA Agent",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-29",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": null
+    },
+    {
+      "id": "TSK-0154",
+      "st": 154,
+      "function_id": "1",
+      "title": "Step 1: Thêm các fields cần sử dụng vào bảng Account trong dataverse",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-12-05",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0155",
+      "st": 155,
+      "function_id": "2",
+      "title": "Step 2: Lấy ra danh sách tất cả các tasks status # done trong planner của user đang prompt (mỗi user muốn tạo được task thì đã có config planner trong database)",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-13",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0156",
+      "st": 156,
+      "function_id": "3",
+      "title": "Step 3: Tạo 1 Topic Risk Assessment trong PM Agent",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-12-05",
+      "owner": {
+        "name": "ThangTQ44",
+        "initials": "TH",
+        "avatar_color": "bg-[#64748b]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0157",
+      "st": 157,
+      "function_id": "4",
+      "title": "Soạn tài liệu thuyết trình",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-20",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0158",
+      "st": 158,
+      "function_id": "5",
+      "title": "Test",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-14",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0159",
+      "st": 159,
+      "function_id": "6",
+      "title": "Soạn tài liệu Test",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-22",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0160",
+      "st": 160,
+      "function_id": "7",
+      "title": "Demo 14h-15h",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-14",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0161",
+      "st": 161,
+      "function_id": "8",
+      "title": "Viết Flow mới - Để lấy được all task có ID, Accout",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-15",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0162",
+      "st": 162,
+      "function_id": "9",
+      "title": "Test lần 2",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-15",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0163",
+      "st": 163,
+      "function_id": "10",
+      "title": "Bổ sung Step mới: Lấy email",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-18",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0164",
+      "st": 164,
+      "function_id": "1",
+      "title": "Trainning Python",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-12-05",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0165",
+      "st": 165,
+      "function_id": "2",
+      "title": "Trainning Copilot",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-12-05",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint12",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0166",
+      "st": 166,
+      "function_id": "1",
+      "title": "Test lần 3",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-05-18",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint13",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0167",
+      "st": 167,
+      "function_id": "2",
+      "title": "UAT",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-19",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint13",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0168",
+      "st": 168,
+      "function_id": "3",
+      "title": "Release",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-19",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint13",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0169",
+      "st": 169,
+      "function_id": "4",
+      "title": "Update dữ liệu vào file: TÀI LIỆU HƯỚNG DẪN SỬ DỤNG PM  ASSISTANT \n\nhttps://fptsoftware362.sharepoint.com/:w:/r/sites/EBS.ERP.BnP.Intern/_layouts/15/Doc.aspx?sourcedoc=%7B39FA317F-73C7-4B44-BD12-307DF6DD24D1%7D&file=H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20S%E1%BB%AC%20D%E1%BB%A4NG%20PM%20ASSISTANT.docx&action=default&mobileredirect=true",
+      "project": "Scanning & Auditing",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-29",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint13",
+      "completed": true,
+      "source_type": "Scanning & Auditing"
+    },
+    {
+      "id": "TSK-0170",
+      "st": 170,
+      "function_id": "5",
+      "title": "Update tài liệu và check lại dữ liệu trước: Demo cho End User\n\nhttps://fptsoftware362.sharepoint.com/:w:/r/sites/EBS.ERP.BnP.Intern/_layouts/15/Doc.aspx?sourcedoc=%7BE331B6D7-881A-4DB0-83B0-F6F4F8F506CE%7D&file=T%C3%80I%20LI%E1%BB%86U%20H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20DEMO.docx&action=default&mobileredirect=true",
+      "project": "Scanning & Auditing",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-22",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint13",
+      "completed": true,
+      "source_type": "Scanning & Auditing"
+    },
+    {
+      "id": "TSK-0171",
+      "st": 171,
+      "function_id": "1",
+      "title": "Define công thức tính Risk task ver 2",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-05-29",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint14",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0172",
+      "st": 172,
+      "function_id": "2",
+      "title": "Họp chốt công thức ver 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-05-29",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint14",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0173",
+      "st": 173,
+      "function_id": "3",
+      "title": "Test các version công thức tính Risk",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-05-29",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint14",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0174",
+      "st": 174,
+      "function_id": "4",
+      "title": "Check list triển khai công thức tính Risk ver 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-05-29",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint14",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0175",
+      "st": 175,
+      "function_id": "1",
+      "title": "Test, fix Bug",
+      "project": "Scanning & Auditing",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-03",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "Scanning & Auditing"
+    },
+    {
+      "id": "TSK-0176",
+      "st": 176,
+      "function_id": "2",
+      "title": "Triển khai task Dev cho công thức ver 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-02",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0177",
+      "st": 177,
+      "function_id": "3",
+      "title": "Soạn tài liệu thuyết trình Risk ver 2",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-04",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0178",
+      "st": 178,
+      "function_id": "4",
+      "title": "Training New Member - Role Test-Dev",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-05",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0179",
+      "st": 179,
+      "function_id": "5",
+      "title": "Task Daily: Check promt chạy trên model nào để check credit tránh đốt token vượt mức cho phép",
+      "project": "Performance",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "Performance"
+    },
+    {
+      "id": "TSK-0180",
+      "st": 180,
+      "function_id": "6",
+      "title": "Dev tính năng của Risk Assesment Ver 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0181",
+      "st": 181,
+      "function_id": "6.1",
+      "title": "Task 1 -> 4",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-04",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0182",
+      "st": 182,
+      "function_id": "6.2",
+      "title": "Task 5",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-03",
+      "owner": {
+        "name": "HuyPQ105",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0183",
+      "st": 183,
+      "function_id": "6.3",
+      "title": "Task 6,7",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0184",
+      "st": 184,
+      "function_id": "6.4",
+      "title": "Task 8 -> 11",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-09",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0185",
+      "st": 185,
+      "function_id": "6.5",
+      "title": "Task 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "HuyPQ105",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0186",
+      "st": 186,
+      "function_id": "6.6",
+      "title": "Task 12 -> 15",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "HuyPQ105",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0187",
+      "st": 187,
+      "function_id": "6.7",
+      "title": "Task 13",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "HuyPQ105",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0188",
+      "st": 188,
+      "function_id": "7",
+      "title": "Review lần 1",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-12",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0189",
+      "st": 189,
+      "function_id": "1",
+      "title": "Check list các mục cần sửa, bổ sung",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-15",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0190",
+      "st": 190,
+      "function_id": "2",
+      "title": "Họp lên plan chi tiết các mục cần sửa, bổ sung",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-16",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0191",
+      "st": 191,
+      "function_id": "3",
+      "title": "Plan chi tiết các mục chỉnh sửa",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0192",
+      "st": 192,
+      "function_id": "4",
+      "title": "Nhận bạn Dev mới, gửi tài liệu, trainning tổng quan PMA",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-17",
+      "owner": {
+        "name": "LanPH",
+        "initials": "LA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0193",
+      "st": 193,
+      "function_id": "5",
+      "title": "Trainning DEV PMA",
+      "project": "Others",
+      "priority": "Low",
+      "progress": 100,
+      "due_date": "2026-06-18",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0194",
+      "st": 194,
+      "function_id": "6",
+      "title": "Plan Define Dev phần chỉnh sửa lần 2 của Ver 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-29",
+      "owner": {
+        "name": "LongNT90",
+        "initials": "LO",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0195",
+      "st": 195,
+      "function_id": "7",
+      "title": "Update dữ liệu vào file: TÀI LIỆU HƯỚNG DẪN SỬ DỤNG PM  ASSISTANT",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-06-06",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0196",
+      "st": 196,
+      "function_id": "8",
+      "title": "Test UI table",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-30",
+      "owner": {
+        "name": "HuyPQ104",
+        "initials": "HU",
+        "avatar_color": "bg-[#9333ea]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0197",
+      "st": 197,
+      "function_id": "7",
+      "title": "Review lần 2",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-06-26",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0198",
+      "st": 198,
+      "function_id": "1",
+      "title": "Check list các mục cần sửa, bổ sung",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-07",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0199",
+      "st": 199,
+      "function_id": "2",
+      "title": "Họp lên plan chi tiết các mục cần sửa, bổ sung",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-07",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0200",
+      "st": 200,
+      "function_id": "3",
+      "title": "Plan chi tiết các mục chỉnh sửa",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-07",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0201",
+      "st": 201,
+      "function_id": "4",
+      "title": "Task Dev",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-03-07",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint15",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0202",
+      "st": 202,
+      "function_id": "1",
+      "title": "Review update Risk Assessment",
+      "project": "New Feature",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-07-10",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0203",
+      "st": 203,
+      "function_id": "2",
+      "title": "Soạn tài liệu Chức năng: Request Personnels",
+      "project": "New Feature",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-09",
+      "owner": {
+        "name": "TuanDA73",
+        "initials": "TU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "New Feature"
+    },
+    {
+      "id": "TSK-0204",
+      "st": 204,
+      "function_id": "1",
+      "title": "Update tài liệu BA phần Risk Assessment chuẩn theo team BnP",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-17",
+      "owner": {
+        "name": "VanVTT13",
+        "initials": "VA",
+        "avatar_color": "bg-[#1877f2]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0205",
+      "st": 205,
+      "function_id": "2",
+      "title": "Update tài liệu BA phần Request Personnels chuẩn theo team BnP",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-17",
+      "owner": {
+        "name": "TuanDA73",
+        "initials": "TU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0206",
+      "st": 206,
+      "function_id": "3",
+      "title": "Nghiên cứu phần lưu trữ Database",
+      "project": "Planner",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-07-17",
+      "owner": {
+        "name": "DuyNQ51",
+        "initials": "DU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0207",
+      "st": 207,
+      "function_id": "4",
+      "title": "Test và cập nhật file Risk Assessment",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-17",
+      "owner": {
+        "name": "HuyPQ105",
+        "initials": "HU",
+        "avatar_color": "bg-[#0d9488]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0208",
+      "st": 208,
+      "function_id": "5",
+      "title": "Test và cập nhật file Request Personnels",
+      "project": "Others",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-17",
+      "owner": {
+        "name": "HuyenNTT126",
+        "initials": "HU",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Others"
+    },
+    {
+      "id": "TSK-0209",
+      "st": 209,
+      "function_id": "6",
+      "title": "Soạn Plan 2026",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-10",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0210",
+      "st": 210,
+      "function_id": "1",
+      "title": "Nghiên cứu phần gọi Agent SCDM lên PMA phân quyền để không hiển thị full option",
+      "project": "Planner",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-07-24",
+      "owner": {
+        "name": "KietLTH2",
+        "initials": "KI",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0211",
+      "st": 211,
+      "function_id": "2",
+      "title": "Nghiên cứu nơi lưu trữ Database cho các Agent",
+      "project": "Planner",
+      "priority": "High",
+      "progress": 100,
+      "due_date": "2026-07-24",
+      "owner": {
+        "name": "KietLTH2",
+        "initials": "KI",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0212",
+      "st": 212,
+      "function_id": "3",
+      "title": "Làm file tổng quan về PMA (VN, EN)",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-21",
+      "owner": {
+        "name": "TuanDA73",
+        "initials": "TU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0213",
+      "st": 213,
+      "function_id": "4",
+      "title": "Quay các video Demo: cài đặt, chức năng, ....",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-24",
+      "owner": {
+        "name": "TuanDA73",
+        "initials": "TU",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0214",
+      "st": 214,
+      "function_id": "1",
+      "title": "Viết tài liệu đặc tả liên quan đến các chức năng chưa có tài liệu của PMA Agent",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0215",
+      "st": 215,
+      "function_id": "2",
+      "title": "Viết tài liệu phần Audit: WBS, File BA, Test, Dev",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-07",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0216",
+      "st": 216,
+      "function_id": "3",
+      "title": "Dev: Plan chi tiết phần Dev",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-07-31",
+      "owner": {
+        "name": "KietLTH2",
+        "initials": "KI",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint16",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0217",
+      "st": 217,
+      "function_id": "1",
+      "title": "Dev phần Audit",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-07",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0218",
+      "st": 218,
+      "function_id": "2",
+      "title": "Làm slide thuyết trình phần Audit tài liệu",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-07",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0219",
+      "st": 219,
+      "function_id": "3",
+      "title": "Làm file test chức năng Audit",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-07",
+      "owner": {
+        "name": "HuyenNTT126",
+        "initials": "HU",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0220",
+      "st": 220,
+      "function_id": "4",
+      "title": "Demo, thuyết trình",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-07",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0221",
+      "st": 221,
+      "function_id": "1",
+      "title": "BA: viết tài liệu phần Audit file doc còn thiếu.",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0222",
+      "st": 222,
+      "function_id": "2",
+      "title": "BA: viết tài liệu Report Audit còn thiếu",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0223",
+      "st": 223,
+      "function_id": "3",
+      "title": "BA: KT Audit & Risk Assessment cho BA mới",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0224",
+      "st": 224,
+      "function_id": "4",
+      "title": "Demo, Thuyết trình, Meeting",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0225",
+      "st": 225,
+      "function_id": "1",
+      "title": "BA: KT Audit & Risk Assessment cho BA mới",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-21",
+      "owner": {
+        "name": "PhuongDLY",
+        "initials": "PH",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0226",
+      "st": 226,
+      "function_id": "2",
+      "title": "BA: Plan Task bổ sung các chức năng còn thiếu file đặc tả của PMA Agent (4 chức năng)",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-31",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0227",
+      "st": 227,
+      "function_id": "3",
+      "title": "Dev: Dev chức năng Audit: Report và Audit Doc",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-31",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0228",
+      "st": 228,
+      "function_id": "4",
+      "title": "Demo, Thuyết trình, Meeting",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-14",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0229",
+      "st": 229,
+      "function_id": "1",
+      "title": "Follow các task chưa hoàn thành trong tháng đến hết tháng",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-31",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0230",
+      "st": 230,
+      "function_id": "2",
+      "title": "Làm file Test các chức năng trước để tổng hợp các lỗi để có Plan tổng hợp, fix bug",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-31",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0231",
+      "st": 231,
+      "function_id": "3",
+      "title": "Demo, Thuyết trình, Meeting",
+      "project": "Non Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-08-31",
+      "owner": {
+        "name": "Team",
+        "initials": "TE",
+        "avatar_color": "bg-[#0ea5e9]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Non Planner"
+    },
+    {
+      "id": "TSK-0232",
+      "st": 232,
+      "function_id": "1",
+      "title": "BA: nghiên cứu cách triển khai DashBoard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-12",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0233",
+      "st": 233,
+      "function_id": "2",
+      "title": "BA: Work với dev hoàn thiện các tính năng cũ",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-06",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0234",
+      "st": 234,
+      "function_id": "3",
+      "title": "Dev: hoàn thiện chức năng Audit: Report và Audit Doc",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-06",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0235",
+      "st": 235,
+      "function_id": "4",
+      "title": "Dev: Fix lỗi dữ liệu cho tính năng cũ, nghiên cứu flow logic mới của tính năng cũ",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-04",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint17",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0236",
+      "st": 236,
+      "function_id": "1",
+      "title": "BA: Training PMA, rule cho BA mới",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-08",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0237",
+      "st": 237,
+      "function_id": "2",
+      "title": "BA: support Trâm viết tài liệu đặc tả Dashboard + phối hợp thiết kế Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-11",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0238",
+      "st": 238,
+      "function_id": "3",
+      "title": "BA: Viết tài liệu đặc tả Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-11",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0239",
+      "st": 239,
+      "function_id": "4",
+      "title": "DEV: Tiếp tục DEV chức năng report tổng hợp",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-10",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0240",
+      "st": 240,
+      "function_id": "5",
+      "title": "DEV: Xây dựng lại tính năng Today Tasks",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-11",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0241",
+      "st": 241,
+      "function_id": "1",
+      "title": "BA: work với KietLHT2 thiết kế adaptive card, hoàn thiện tính năng: Bookmark, meeting/visit request",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0242",
+      "st": 242,
+      "function_id": "2",
+      "title": "BA: update dashboard: overview, audit docs, progress task, risk prediction",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0243",
+      "st": 243,
+      "function_id": "3",
+      "title": "BA: Hoàn thiện tài liệu đặc tả Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0244",
+      "st": 244,
+      "function_id": "4",
+      "title": "BA: Thiết kế tài liệu đặc tả cho danh mục tài liệu audit chuẩn",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0245",
+      "st": 245,
+      "function_id": "5",
+      "title": "BA: Thiết kế tài liệu đặc tả cho Quản lý tiến độ dự án nhiều Sprint",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0246",
+      "st": 246,
+      "function_id": "6",
+      "title": "TEST:Thực hiện viết test các tính năng Personal Task của Task Management",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "KienHT36",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0247",
+      "st": 247,
+      "function_id": "7",
+      "title": "BA: xác định danh mục tài liệu audit chuẩn",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0248",
+      "st": 248,
+      "function_id": "8",
+      "title": "DEV: Fix tính năng Bookmark",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-19",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0249",
+      "st": 249,
+      "function_id": "9",
+      "title": "DEV: Fix tính năng Visting",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-19",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0250",
+      "st": 250,
+      "function_id": "10",
+      "title": "DEV: Set up Database",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-19",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0251",
+      "st": 251,
+      "function_id": "11",
+      "title": "DEV: Set up Database",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-19",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0252",
+      "st": 252,
+      "function_id": "12",
+      "title": "BA: Xây dựng bộ công thức tính Risk Prediction",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0253",
+      "st": 253,
+      "function_id": "13",
+      "title": "DEV: Xây dựng khung backend",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-25",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0254",
+      "st": 254,
+      "function_id": "1",
+      "title": "BA: thiết kế các màn hình drill-down từ Dashboard và đặc tả chức năng cho từng Detail Screen",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-25",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0255",
+      "st": 255,
+      "function_id": "2",
+      "title": "BA: Viết tài liệu đặc tả các module của Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-09-25",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0256",
+      "st": 256,
+      "function_id": "3",
+      "title": "DEV: Đưa dữ liệu thật vào Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-25",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0257",
+      "st": 257,
+      "function_id": "4",
+      "title": "BA: thiết kế tab chatbot trên Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 10,
+      "due_date": "2026-09-29",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Overdue",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0258",
+      "st": 258,
+      "function_id": "5",
+      "title": "DEV: Thiết kế flow lưu data vào dataverse",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-09-29",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatar_color": "bg-[#059669]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0259",
+      "st": 259,
+      "function_id": "1",
+      "title": "BA: Viết tài liệu đặc tả cho hiển thị dữ liệu đa Sprint",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 50,
+      "due_date": "2026-10-02",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "In Progress",
+      "sprint": "Sprint18",
+      "completed": false,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0260",
+      "st": 260,
+      "function_id": "2",
+      "title": "DEV: Đưa dữ liệu thật vào UI mới, thiết kế một số thao tác trên Dashboard",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-10-02",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0261",
+      "st": 261,
+      "function_id": "3",
+      "title": "BA: Update design UI Dashboard: tab Overview, Risk Prediction, Progress task, Audit docs",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-10-02",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatar_color": "bg-[#0284c7]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    },
+    {
+      "id": "TSK-0262",
+      "st": 262,
+      "function_id": "4",
+      "title": "TEST:Test tính năng Bookmark, Meeting/Visit Request",
+      "project": "Planner",
+      "priority": "Medium",
+      "progress": 100,
+      "due_date": "2026-10-02",
+      "owner": {
+        "name": "KienHT36",
+        "initials": "KI",
+        "avatar_color": "bg-[#6366f1]",
+        "role": null
+      },
+      "status": "Completed",
+      "sprint": "Sprint18",
+      "completed": true,
+      "source_type": "Planner"
+    }
+  ]
+}

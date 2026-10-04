@@ -1,0 +1,906 @@
+{
+  "project": "PMA Agent",
+  "selectedSprint": "All open sprints",
+  "sprintOptions": [
+    "All open sprints",
+    "Sprint1",
+    "Sprint2",
+    "Sprint3",
+    "Sprint4",
+    "Sprint5",
+    "Sprint6",
+    "Sprint7",
+    "Sprint8",
+    "Sprint9",
+    "Sprint10",
+    "Sprint11",
+    "Sprint12",
+    "Sprint13",
+    "Sprint14",
+    "Sprint15",
+    "Sprint16",
+    "Sprint17",
+    "Sprint18"
+  ],
+  "metrics": [
+    {
+      "key": "sprint_health",
+      "label": "Sprint Health",
+      "value": "90.62%",
+      "status": "On Track",
+      "delta": null
+    },
+    {
+      "key": "critical_risk",
+      "label": "Critical Risk",
+      "value": "6",
+      "status": "Critical",
+      "delta": null
+    },
+    {
+      "key": "audit_pending",
+      "label": "Audit Pending",
+      "value": "0",
+      "status": "No audit data in WBS payload",
+      "delta": null
+    }
+  ],
+  "deliveryTrend": [
+    {
+      "sprint": "Sprint1",
+      "created": 3,
+      "completed": 3,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint2",
+      "created": 9,
+      "completed": 9,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint3",
+      "created": 8,
+      "completed": 8,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint4",
+      "created": 11,
+      "completed": 11,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint5",
+      "created": 13,
+      "completed": 13,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint6",
+      "created": 21,
+      "completed": 21,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint7",
+      "created": 30,
+      "completed": 29,
+      "completionRate": 96.67
+    },
+    {
+      "sprint": "Sprint8",
+      "created": 20,
+      "completed": 16,
+      "completionRate": 80.0
+    },
+    {
+      "sprint": "Sprint9",
+      "created": 15,
+      "completed": 0,
+      "completionRate": 0.0
+    },
+    {
+      "sprint": "Sprint10",
+      "created": 37,
+      "completed": 36,
+      "completionRate": 97.3
+    },
+    {
+      "sprint": "Sprint11",
+      "created": 21,
+      "completed": 21,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint12",
+      "created": 22,
+      "completed": 22,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint13",
+      "created": 6,
+      "completed": 6,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint14",
+      "created": 5,
+      "completed": 5,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint15",
+      "created": 30,
+      "completed": 30,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint16",
+      "created": 19,
+      "completed": 19,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint17",
+      "created": 22,
+      "completed": 22,
+      "completionRate": 100.0
+    },
+    {
+      "sprint": "Sprint18",
+      "created": 28,
+      "completed": 19,
+      "completionRate": 67.86
+    }
+  ],
+  "sprints": [
+    {
+      "id": "sprint1",
+      "name": "Sprint1",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 3,
+      "completedTasks": 3,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Nghiên cứu chọn file dynamic trên Sharepoint",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Cho phép người dùng chọn 1 file trên Sharepoint mà họ muốn",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Trong Agent khi người dùng prompt tạo task ở file Task Management trên sharepoint thì sẽ cho người dùng chọn file chứ không phải fixed 1 file",
+          "status": "Completed",
+          "owner": "BachTT2"
+        }
+      ]
+    },
+    {
+      "id": "sprint2",
+      "name": "Sprint2",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 9,
+      "completedTasks": 9,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Update BnP PM Assistant",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Update remind multiple Plans in cross Channels",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Hiện tại Agent đang chỉ chọn được nhiều Plan trong 1 group channel --> mong muốn update chọn được nhiều group channel và nhiều plans nằm trong các group đã chọn",
+          "status": "Completed",
+          "owner": "HungTHT1"
+        }
+      ]
+    },
+    {
+      "id": "sprint3",
+      "name": "Sprint3",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 8,
+      "completedTasks": 8,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Nghiên cứu AI Models trong hệ sinh thái Microsoft",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Nghiên cứu AI Models",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "AI Builder là gì và nó được sử dụng để làm gì?",
+          "status": "Completed",
+          "owner": "BachTT2, HungTHT1"
+        }
+      ]
+    },
+    {
+      "id": "sprint4",
+      "name": "Sprint4",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 11,
+      "completedTasks": 11,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Fix bug",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "UI/UX",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Lỗi font mục Power BI Report",
+          "status": "Completed",
+          "owner": "BachTT2"
+        }
+      ]
+    },
+    {
+      "id": "sprint5",
+      "name": "Sprint5",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 13,
+      "completedTasks": 13,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "AI Application",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Tính năng Suggestion Today",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Tạo suggestion today dựa trên interest của PM:\n+ Dùng AI để generate.\n+ Có 3 button (đã ghi rõ trong backlog và mục UI).",
+          "status": "Completed",
+          "owner": "BachTT2"
+        }
+      ]
+    },
+    {
+      "id": "sprint6",
+      "name": "Sprint6",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 21,
+      "completedTasks": 21,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Deploy cho PM",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Update Sprint Plan & Timeline",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Cập nhật file sprint/timeline dựa trên bản cũ của Long. Đảm bảo khớp với chu kỳ sprint 19/01 - 02/02.",
+          "status": "Completed",
+          "owner": "DungDTT42"
+        }
+      ]
+    },
+    {
+      "id": "sprint7",
+      "name": "Sprint7",
+      "badge": "On Track",
+      "progress": 96.67,
+      "totalTasks": 30,
+      "completedTasks": 29,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Refactor & Optimization (Feb 03 - Feb 17)",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Refactor UI & Codebase",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Apply UI Library cho toàn bộ dự án.\nThay thế các component cũ bằng Library chuẩn đã build ở Sprint 5.",
+          "status": "Completed",
+          "owner": "DevTeam"
+        }
+      ]
+    },
+    {
+      "id": "sprint8",
+      "name": "Sprint8",
+      "badge": "On Track",
+      "progress": 80.0,
+      "totalTasks": 20,
+      "completedTasks": 16,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Non Planner features và cải thiện UI/UX(Feb 23 - Mar 9)",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "UI/UX",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Căn chỉnh chiều dài chiều rộng của cột trong bảng",
+          "status": "Completed",
+          "owner": "ThangLV30"
+        }
+      ]
+    },
+    {
+      "id": "sprint9",
+      "name": "Sprint9",
+      "badge": "On Track",
+      "progress": 0.0,
+      "totalTasks": 15,
+      "completedTasks": 0,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "(Mar 22 - Apr 5)",
+          "status": "Planned",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "New features",
+          "status": "Planned",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "Kết nối tính năng tạo MOM từ script với tính năng tạo task từ MOM",
+          "status": "Planned",
+          "owner": "Unassigned"
+        }
+      ]
+    },
+    {
+      "id": "sprint10",
+      "name": "Sprint10",
+      "badge": "On Track",
+      "progress": 97.3,
+      "totalTasks": 37,
+      "completedTasks": 36,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "[PMA] - KT buổi 1",
+          "status": "Completed",
+          "owner": "HungNM96"
+        },
+        {
+          "name": "Buổi 1: 14/4/2026 (60 phút)",
+          "status": "Completed",
+          "owner": "Unassigned"
+        },
+        {
+          "name": "[PMA] - Test các Feature & QA",
+          "status": "Completed",
+          "owner": "LanPH"
+        }
+      ]
+    },
+    {
+      "id": "sprint11",
+      "name": "Sprint11",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 21,
+      "completedTasks": 21,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "4/5 đến 8/5: Update các file tài liệu PMA ver 2.5",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        },
+        {
+          "name": "Check các STT: Not started, Pending, In Development trong file BnP PM Assistant Requirement",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        },
+        {
+          "name": "Check update file phân quyền User mới dùng",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        }
+      ]
+    },
+    {
+      "id": "sprint12",
+      "name": "Sprint12",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 22,
+      "completedTasks": 22,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Plan chi tiết về chức năng mới",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        },
+        {
+          "name": "Thứ 2: 10h - 11h\n\nHọp giải thích 1 số thắc mắc cho 2 bạn DuyNQ51, HuyPQ104 (Check với LongNT90, Request LongNT90 join cùng )",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        },
+        {
+          "name": "Chia task cho 2 bạn: DuyNQ51, HuyPQ104",
+          "status": "Completed",
+          "owner": "ThangTQ44"
+        }
+      ]
+    },
+    {
+      "id": "sprint13",
+      "name": "Sprint13",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 6,
+      "completedTasks": 6,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Test lần 3",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Test lần 3",
+          "status": "Completed",
+          "owner": "LongNT90"
+        },
+        {
+          "name": "UAT",
+          "status": "Completed",
+          "owner": "Team"
+        }
+      ]
+    },
+    {
+      "id": "sprint14",
+      "name": "Sprint14",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 5,
+      "completedTasks": 5,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Công thức tính Risk ver 2",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Define công thức tính Risk task ver 2",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Họp chốt công thức ver 2",
+          "status": "Completed",
+          "owner": "Team"
+        }
+      ]
+    },
+    {
+      "id": "sprint15",
+      "name": "Sprint15",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 30,
+      "completedTasks": 30,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Triển khai & Phát triển Risk ver 2 (1/6 - 12/6)",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Test, fix Bug",
+          "status": "Completed",
+          "owner": "HuyPQ104"
+        },
+        {
+          "name": "Triển khai task Dev cho công thức ver 2",
+          "status": "Completed",
+          "owner": "LongNT90"
+        }
+      ]
+    },
+    {
+      "id": "sprint16",
+      "name": "Sprint16",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 19,
+      "completedTasks": 19,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Demo, Review",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Review update Risk Assessment",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Soạn tài liệu Chức năng: Request Personnels",
+          "status": "Completed",
+          "owner": "TuanDA73"
+        }
+      ]
+    },
+    {
+      "id": "sprint17",
+      "name": "Sprint17",
+      "badge": "On Track",
+      "progress": 100.0,
+      "totalTasks": 22,
+      "completedTasks": 22,
+      "overdueTasks": 0,
+      "atRiskTasks": 0,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "Tuần 3/8 - 7/8",
+          "status": "Completed",
+          "owner": "Team"
+        },
+        {
+          "name": "Dev phần Audit",
+          "status": "Completed",
+          "owner": "KietLHT2"
+        },
+        {
+          "name": "Làm slide thuyết trình phần Audit tài liệu",
+          "status": "Completed",
+          "owner": "PhuongDLY"
+        }
+      ]
+    },
+    {
+      "id": "sprint18",
+      "name": "Sprint18",
+      "badge": "Delay Risk",
+      "progress": 67.86,
+      "totalTasks": 28,
+      "completedTasks": 19,
+      "overdueTasks": 3,
+      "atRiskTasks": 6,
+      "daysRemaining": "See task due dates",
+      "keyTasks": [
+        {
+          "name": "BA: Thiết kế tài liệu đặc tả cho danh mục tài liệu audit chuẩn",
+          "status": "Overdue",
+          "owner": "TramNDT"
+        },
+        {
+          "name": "BA: Thiết kế tài liệu đặc tả cho Quản lý tiến độ dự án nhiều Sprint",
+          "status": "Overdue",
+          "owner": "TramNDT"
+        },
+        {
+          "name": "DEV: Đưa dữ liệu thật vào Dashboard",
+          "status": "Overdue",
+          "owner": "KietLHT2"
+        }
+      ]
+    }
+  ],
+  "attentionTasks": [
+    {
+      "id": "TSK-0302",
+      "title": "BA: Thiết kế tài liệu đặc tả cho danh mục tài liệu audit chuẩn",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatarBg": "bg-amber-500"
+      },
+      "priority": "Critical",
+      "status": "Overdue",
+      "progress": 50,
+      "dueDate": "2026-09-18",
+      "blockerReason": "Task qua han theo PlanEnd",
+      "subtasks": [
+        {
+          "id": "TSK-0302-1",
+          "title": "BA: Thiết kế tài liệu đặc tả cho danh mục tài liệu audit chuẩn",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0303",
+      "title": "BA: Thiết kế tài liệu đặc tả cho Quản lý tiến độ dự án nhiều Sprint",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatarBg": "bg-purple-500"
+      },
+      "priority": "Critical",
+      "status": "Overdue",
+      "progress": 50,
+      "dueDate": "2026-09-18",
+      "blockerReason": "Task qua han theo PlanEnd",
+      "subtasks": [
+        {
+          "id": "TSK-0303-1",
+          "title": "BA: Thiết kế tài liệu đặc tả cho Quản lý tiến độ dự án nhiều Sprint",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0314",
+      "title": "DEV: Đưa dữ liệu thật vào Dashboard",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatarBg": "bg-amber-500"
+      },
+      "priority": "Critical",
+      "status": "Overdue",
+      "progress": 50,
+      "dueDate": "2026-09-25",
+      "blockerReason": "Task qua han theo PlanEnd",
+      "subtasks": [
+        {
+          "id": "TSK-0314-1",
+          "title": "DEV: Đưa dữ liệu thật vào Dashboard",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0315",
+      "title": "BA: thiết kế tab chatbot trên Dashboard",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatarBg": "bg-purple-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 10,
+      "dueDate": "Today",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0315-1",
+          "title": "BA: thiết kế tab chatbot trên Dashboard",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0316",
+      "title": "DEV: Thiết kế flow lưu data vào dataverse",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "PhuNT51",
+        "initials": "PH",
+        "avatarBg": "bg-rose-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 50,
+      "dueDate": "Today",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0316-1",
+          "title": "DEV: Thiết kế flow lưu data vào dataverse",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0317",
+      "title": "BA: Viết tài liệu đặc tả cho hiển thị dữ liệu đa Sprint",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "TramNDT",
+        "initials": "TR",
+        "avatarBg": "bg-cyan-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 50,
+      "dueDate": "2026-10-02",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0317-1",
+          "title": "BA: Viết tài liệu đặc tả cho hiển thị dữ liệu đa Sprint",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0318",
+      "title": "DEV: Đưa dữ liệu thật vào UI mới, thiết kế một số thao tác trên Dashboard",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "KietLHT2",
+        "initials": "KI",
+        "avatarBg": "bg-blue-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 50,
+      "dueDate": "2026-10-02",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0318-1",
+          "title": "DEV: Đưa dữ liệu thật vào UI mới, thiết kế một số thao tác trên Dashboard",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0319",
+      "title": "BA: Update design UI Dashboard:",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "LyDY",
+        "initials": "LY",
+        "avatarBg": "bg-emerald-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 50,
+      "dueDate": "2026-10-02",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0319-1",
+          "title": "BA: Update design UI Dashboard:",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0320",
+      "title": "TEST:Test tính năng Bookmark, Meeting/Visit Request",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint18",
+      "owner": {
+        "name": "KienHT36",
+        "initials": "KI",
+        "avatarBg": "bg-amber-500"
+      },
+      "priority": "High",
+      "status": "At Risk",
+      "progress": 50,
+      "dueDate": "2026-10-02",
+      "blockerReason": "Task co nguy co tre theo PlanEnd/Progress",
+      "subtasks": [
+        {
+          "id": "TSK-0320-1",
+          "title": "TEST:Test tính năng Bookmark, Meeting/Visit Request",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "TSK-0054",
+      "title": "Build UI Template & UI Library dùng chung.\r\nMục tiêu: Tạo bộ chuẩn (Button, Form, List, Color...) để Dev reuse code.",
+      "subtitle": "Planner",
+      "project": "PMA Agent",
+      "sprint": "Sprint6",
+      "owner": {
+        "name": "ThangLV",
+        "initials": "TH",
+        "avatarBg": "bg-blue-500"
+      },
+      "priority": "Critical",
+      "status": "Completed",
+      "progress": 100,
+      "dueDate": "No due date",
+      "blockerReason": null,
+      "subtasks": [
+        {
+          "id": "TSK-0054-1",
+          "title": "Build UI Template & UI Library dùng chung.\r\nMục tiêu: Tạo bộ chuẩn (Button, Form, List, Color...) để Dev reuse code.",
+          "completed": true
+        }
+      ]
+    }
+  ]
+}

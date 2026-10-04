@@ -1,0 +1,8 @@
+{
+  "name": "PMA Agent Control Center",
+  "description": "Portfolio & Open Sprints Control Center for PMA Agent - task progress, risk predictions, audit documentation, and team collaboration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

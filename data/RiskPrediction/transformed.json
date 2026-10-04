@@ -1,0 +1,99 @@
+{
+  "selected_sprint": "Sprint18",
+  "formula": {
+    "probability_weights": {
+      "days_gt_14": 0.1,
+      "days_8_to_14": 0.3,
+      "days_4_to_7": 0.5,
+      "days_1_to_3": 0.75,
+      "due_today": 0.9,
+      "overdue": 1.0
+    },
+    "impact_min": 1.0,
+    "impact_max": 5.0
+  },
+  "summary": {
+    "total_risks": 2,
+    "critical_risks": 2,
+    "high_risks": 1,
+    "overdue_risks": 2,
+    "average_probability_pct": 98.75,
+    "average_impact_score": 2.54
+  },
+  "risks": [
+    {
+      "id": "RSK-002",
+      "risk_name": "TramNDT delivery risk",
+      "sprint": "Sprint18",
+      "title": "4 active task(s) may affect Planner delivery in Sprint18.",
+      "impact": "High",
+      "impact_score": 3.67,
+      "probability": "High",
+      "probability_pct": 97.5,
+      "score": 17.89,
+      "status": "Overdue",
+      "owner": "TramNDT",
+      "owner_initials": "TR",
+      "owner_avatar_color": "bg-[#6366f1]",
+      "due_date": "2026-09-18",
+      "due_relative": "Overdue 14 days",
+      "mitigation_plan": "Review active tasks, confirm blockers, and adjust owner capacity or deadline plan.",
+      "affected_function": "Planner",
+      "affected_tasks": 4,
+      "total_tasks": 6
+    },
+    {
+      "id": "RSK-001",
+      "risk_name": "LyDY delivery risk",
+      "sprint": "Sprint18",
+      "title": "1 active task(s) may affect Planner delivery in Sprint18.",
+      "impact": "Low",
+      "impact_score": 1.4,
+      "probability": "High",
+      "probability_pct": 100.0,
+      "score": 7.0,
+      "status": "Overdue",
+      "owner": "LyDY",
+      "owner_initials": "LY",
+      "owner_avatar_color": "bg-[#0284c7]",
+      "due_date": "2026-09-29",
+      "due_relative": "Overdue 3 days",
+      "mitigation_plan": "Review active tasks, confirm blockers, and adjust owner capacity or deadline plan.",
+      "affected_function": "Planner",
+      "affected_tasks": 1,
+      "total_tasks": 10
+    }
+  ],
+  "owner_exposures": [
+    {
+      "rank": 1,
+      "name": "TramNDT",
+      "role": null,
+      "initials": "TR",
+      "avatar_color": "bg-[#6366f1]",
+      "total_risks": 1,
+      "critical_count": 0,
+      "high_count": 1,
+      "medium_count": 0,
+      "risk_score": 17.89,
+      "max_score": 25,
+      "overdue_count": 1,
+      "top_threat_risk": "RSK-002"
+    },
+    {
+      "rank": 2,
+      "name": "LyDY",
+      "role": null,
+      "initials": "LY",
+      "avatar_color": "bg-[#0284c7]",
+      "total_risks": 1,
+      "critical_count": 0,
+      "high_count": 0,
+      "medium_count": 0,
+      "risk_score": 7.0,
+      "max_score": 25,
+      "overdue_count": 1,
+      "top_threat_risk": "RSK-001"
+    }
+  ]
+}
