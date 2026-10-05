@@ -1,5 +1,4 @@
 import json
-import re
 import sys
 from collections import Counter, defaultdict
 from datetime import date, datetime
@@ -17,7 +16,6 @@ from data.RiskPrediction.schemas import RiskPredictionResponse
 from data.common.schemas import PowerAutomateWbsPayload, RiskItemSchema, TaskItemSchema
 
 
-FLOW_SOURCE = ROOT / "data" / "get_data_wbs.py"
 OUTPUT_PATH = ROOT / "data" / "transformed_powerautomate_schemas.json"
 COMPONENT_OUTPUTS = {
     "ProgressTaskResponse": ROOT / "data" / "ProgressTask" / "transformed.json",
@@ -52,16 +50,10 @@ def dump_model(model: Any) -> dict[str, Any]:
     return model.dict()
 
 
-def extract_flow_url() -> str:
-    text = FLOW_SOURCE.read_text(encoding="utf-8")
-    match = re.search(r'FLOW_URL = "([^"]+)"', text)
-    if not match:
-        raise RuntimeError("Cannot find FLOW_URL in data/get_data_wbs.py")
-    return match.group(1)
-
-
 def fetch_powerautomate_payload() -> PowerAutomateWbsPayload:
-    response = requests.post(extract_flow_url(), json={}, timeout=120)
+    from data.get_data_wbs import get_flow_url
+
+    response = requests.post(get_flow_url(), json={}, timeout=120)
     response.raise_for_status()
     message = response.json()["msg"]
     return PowerAutomateWbsPayload(**message)

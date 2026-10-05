@@ -1,4 +1,3 @@
-import ast
 import json
 import sys
 from collections import Counter, defaultdict
@@ -31,17 +30,9 @@ AVATAR_COLORS = [
 
 
 def read_flow_url() -> str:
-    # Doc FLOW_URL tu file fetch hien co de tranh import file co side-effect request.
-    source = (ROOT_DIR / "get_data_powerautomate.py").read_text(encoding="utf-8")
-    tree = ast.parse(source)
-    for node in tree.body:
-        if isinstance(node, ast.Assign):
-            for target in node.targets:
-                if isinstance(target, ast.Name) and target.id == "FLOW_URL":
-                    value = ast.literal_eval(node.value)
-                    if isinstance(value, str):
-                        return value
-    raise RuntimeError("Khong tim thay FLOW_URL trong data/get_data_powerautomate.py")
+    from data.get_data_powerautomate import get_flow_url
+
+    return get_flow_url()
 
 
 def fetch_powerautomate_payload() -> PowerAutomateWbsPayload:
