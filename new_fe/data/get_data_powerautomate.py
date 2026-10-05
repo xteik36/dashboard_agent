@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 
-import pandas as pd
 import requests
 
 ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
@@ -35,6 +34,8 @@ def fetch_raw_tasks() -> list[dict]:
 
 
 def main() -> None:
+    import pandas as pd
+
     try:
         data = pd.DataFrame(fetch_raw_tasks())
         print(data)
